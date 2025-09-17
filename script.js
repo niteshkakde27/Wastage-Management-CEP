@@ -3,7 +3,7 @@ function validateLogin() {
     let pass = document.getElementById("password").value;
 
     // Fake credentials (you can change them)
-    if(user === "admin" && pass === "1234") {
+    if(user === "nitesh" && pass === "1234") {
         window.location.href = "home.html"; // redirect to homepage
         return false; 
     } else {
