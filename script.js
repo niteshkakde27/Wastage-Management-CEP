@@ -4,7 +4,7 @@ function validateLogin() {
 
     // Fake credentials (you can change them)
     if(user === "admin" && pass === "1234") {
-        window.location.href = "index.html"; // redirect to homepage
+        window.location.href = "home.html"; // redirect to homepage
         return false; 
     } else {
         document.getElementById("error-msg").innerText = "Invalid username or password!";
